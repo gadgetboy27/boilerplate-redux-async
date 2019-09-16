@@ -9,5 +9,6 @@ function subreddits (state = [], action) {
       return state
   }
 }
+  
 
 export default subreddits
