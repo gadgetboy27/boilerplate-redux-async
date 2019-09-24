@@ -26,10 +26,10 @@ class NASApod extends React.Component {
           <>
           <h2>Today:{' '}{this.state.title}</h2>
           <iframe 
-            width='560'  
-            height='415'
+            width='100%'  
+            height='100%'
             src={this.state.url}
-            allow='accelerometer; full-screen; autoplay; encrypted-media; gyroscope, picture-in-picture'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope, picture-in-picture'
             allowFullScreen={true}>
             </iframe>
           </>
